@@ -125,7 +125,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-custom-props');
 
   grunt.registerTask('package-css', ['customProps:package']);
-});
+};
 ```
 
 ### Manually 
