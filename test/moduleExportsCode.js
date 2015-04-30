@@ -1,0 +1,1 @@
+window.module = window.module || {};

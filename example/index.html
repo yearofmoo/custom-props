@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./styles.css" />
+<style>
+body {
+  font-size:50px;
+  text-align:center;
+}
+h2 {
+  color:red;
+}
+</style>
+</head>
+
+<body>
+  <!---
+    THIS DEMO DOES NOT WORK BY ITSELF. RUN `gulp example` TO
+    SEE THE FULL DEMO CREATED INSIDE OF `dist/example` 
+  -->
+
+  <h2>The Custom Properties for &lt;body&gt; are:</h2>
+  <code id="data"></code>
+
+<script type="text/javascript" src="../custom-props.js"></script>
+<script>
+window.onload = function() {
+  var data = CustomProps.data(document.body);
+  document.getElementById('data').innerHTML = JSON.stringify(data);
+};
+</script>
+</body>
+</html>

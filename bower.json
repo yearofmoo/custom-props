@@ -1,0 +1,25 @@
+{
+  "name": "custom-props",
+  "main": [
+    "dist/custom-props.js",
+    "dist/custom-props.min.js"
+  ],
+  "version": "0.1.0",
+  "homepage": "https://github.com/yearofmoo/custom-props",
+  "authors": [
+    "Matias Niemelä <matias@yearofmoo.com>"
+  ],
+  "description": "A cross-browser compatible library for reading custom CSS properties",
+  "keywords": [
+    "custom",
+    "css",
+    "properties",
+    "cross",
+    "browser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "lib", "node_modules", "example", "scripts", "test", "example",
+    "gulpfile.js", "karma.conf.js", "package.json", "index.js"
+  ]
+}

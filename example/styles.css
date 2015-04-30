@@ -1,0 +1,12 @@
+body {
+  background:#eee;
+  --custom-property: 'value';
+  --another-property: 'value2';
+}
+
+@media (max-width: 600px) {
+  strong {
+    color:#eee;
+    --prop-one: 123;
+  }
+}
