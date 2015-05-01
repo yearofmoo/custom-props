@@ -1,6 +1,8 @@
 # Custom Props
 (A Custom CSS Properties Polyfill)
 
+[![Build Status](https://travis-ci.org/yearofmoo/custom-props.png?branch=master)](https://travis-ci.org/yearofmoo/custom-props)
+
 ### Blog Post
 http://www.yearofmoo.com/2015/04/cross-browser-custom-css-properties.html
 -----
