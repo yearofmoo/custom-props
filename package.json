@@ -1,6 +1,6 @@
 {
   "name": "custom-props",
-  "version": "0.1.0",
+  "version": "0.1.01",
   "description": "A CSS preprocessor + front-end script that makes custom CSS properties work in all browsers",
   "repository": {
     "type": "git",
