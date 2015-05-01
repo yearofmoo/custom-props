@@ -8,7 +8,7 @@
   },
   "scripts": {
     "preinstall": "sh ./scripts/install.sh",
-    "test": "gulp test"
+    "test": "gulp travis"
   },
   "licenses": [
     {
@@ -30,8 +30,10 @@
     "jasmine-core": "^2.3.0",
     "karma": "^0.12.31",
     "karma-chrome-launcher": "^0.1.8",
+    "karma-firefox-launcher": "^0.1.4",
     "karma-jasmine": "^0.3.5",
     "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
     "mocha": "^2.2.4",
     "sinon": "^1.14.1",
     "sinon-chai": "^2.7.0"

@@ -52,6 +52,14 @@ gulp.task('test:build', function () {
             .pipe(mocha());
 });
 
+gulp.task('travis:karma', function (done) {
+  karma.start({
+    configFile: __dirname + '/karma.conf.js',
+    browsers: ['Firefox'],
+    singleRun: true
+  }, done);
+}); 
+
 gulp.task('test:karma', function (done) {
   karma.start({
     configFile: __dirname + '/karma.conf.js',
@@ -69,5 +77,6 @@ gulp.task('autotest:karma', function (done) {
 
 gulp.task('example', ['package', 'example:open', 'example:server']);
 gulp.task('test', ['test:build', 'test:karma']);
+gulp.task('travis', ['test:build', 'travis:karma']);
 gulp.task('watch', ['autotest:karma']);
 gulp.task('default', ['package']);
